@@ -1,7 +1,9 @@
 package main
 
-import "confpkg/configuration"
+import (
+	"confpkg/configuration"
+)
 
-func main () {
+func main() {
 	configuration.GetConfig()
 }
